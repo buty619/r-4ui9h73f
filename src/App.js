@@ -17,9 +17,9 @@ class App extends Component {
       </div>
     );
   }
-  upDate(){
+  upDate(event){
     this.setState({
-      texto : document.getElementById("parrafo").value
+      texto : event.target.value
     });
   }
 }
